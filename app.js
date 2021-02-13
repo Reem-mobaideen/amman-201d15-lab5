@@ -52,10 +52,10 @@ IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this funct
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
 
 // Write your code here
-function sumAndMultiply(a, b, c) {
-  let result3=  sum(a,b,c);
+function sumAndMultiply(a,b,c) {
+  let result3=sum(a,b,c);
   let result4=multiply(a,b,c);
-  return [result3, result4,`${a} and ${b} and ${c} sum to ${result3}`,`The product of ${a} and ${b} and ${c} is ${result4}`]
+  return[result3, result4,`${a} and ${b} and ${c} sum to ${result3}.`,`The product of ${a} and ${b} and ${c} is ${result4}.`]
   //eslint-disable-line
   
 }
